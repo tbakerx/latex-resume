@@ -1,21 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Awesome Resume/CV
-% XeLaTeX Template
-% Version 1.3 (30/3/2020)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
 % Important note:
 % This template must be compiled with XeLaTeX, the below lines will ensure this
-%!TEX TS-program = xelatex
+%!TEX TS-program = xelatexhttps://www.overleaf.com/project/5e8c04f0c46a810001a6485c
 %!TEX encoding = UTF-8 Unicode
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,14 +17,8 @@
 \fontdir[fonts/] % Specify the location of the included fonts
 
 % Color for highlights
-%\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 \definecolor{awesome}{HTML}{11610a} % Uncomment if you would like to specify your own color
 
-% Colors for text - uncomment and modify
-%\definecolor{darktext}{HTML}{414141}
-%\definecolor{text}{HTML}{414141}
-%\definecolor{graytext}{HTML}{414141}
-%\definecolor{lighttext}{HTML}{414141}
 
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
 
@@ -47,26 +27,17 @@
 %	Comment any of the lines below if they are not required
 %----------------------------------------------------------------------------------------
 
-\name{Tim}{Baker}
-\address{243-Gorge Rd E, Victoria, BC, Canada}
-\mobile{+1 (250) 793-0920}
+\name{}{Tim Baker}
+\address{3277 Quadra St, Victoria, BC, Canada}
 
 \email{tbakerx@gmail.com}
-\homepage{www.timbakerdev.com}
+\homepage{timbaker.me}
 \github{tbakerx}
 \linkedin{timbakerx}
-%\skype{skypeid}
-%\stackoverflow{SOid}{SOname}
-%\twitter{@twit}
-%\linkedin{linkedin name}
-%\reddit{reddit account}
-%\xing{xing name}
-%\extrainfo{test} % Other text you want to include on this line
 
-\position{Full Stack Software Engineer{\enskip\cdotp\enskip}Security Specialist} % Your expertise/fields
-\quote{``Security is always excessive, until it's not enough."} % A quote or statement
+\position{Senior Full Stack Software Engineer} % Your expertise/fields
 
-\makecvfooter{\today}{Tim Baker~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+\makecvfooter{\today}{Tim Baker~~~·~~~Resume}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
 
 %----------------------------------------------------------------------------------------
 
@@ -79,17 +50,13 @@
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
+\input{cv-sections/experience.tex}
 \input{cv-sections/education.tex}
 \input{cv-sections/skills.tex}
-\input{cv-sections/experience.tex}
 
 \newpage % Force a new page for looks
 
 \input{cv-sections/sideprojects.tex}
-%\input{cv-sections/honors.tex}
-%\input{cv-sections/presentation.tex}
-%\input{cv-sections/writing.tex}
-%\input{cv-sections/committees.tex}
 
 %----------------------------------------------------------------------------------------
 
